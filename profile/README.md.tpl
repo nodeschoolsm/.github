@@ -12,15 +12,9 @@ Somos una comunidad en busca de conocimiento accesible para todas las personas. 
 
 ###  Publicaciones actuales en [Youtube](https://www.youtube.com/channel/UCs1Z2VL-8slRND2AojTpcGg)
 
-<a href="https://www.youtube.com/watch?v=E-Z6ikL7Wj4" target='_blank'>
- <img width='30%' src="https://i.ytimg.com/vi/E-Z6ikL7Wj4/hqdefault.jpg" alt="Usando Atomic State para manejo de estado en React | Dany Beltrán" />
-</a>
-<a href="https://www.youtube.com/watch?v=1914_b3WD5g" target='_blank'>
- <img width='30%' src="https://i.ytimg.com/vi/1914_b3WD5g/hqdefault.jpg" alt="MicroFrontends - Divide y vencerás | Nelson Hernández" />
-</a>
-<a href="https://www.youtube.com/watch?v=z6TFUG1UOzM" target='_blank'>
- <img width='30%' src="https://i.ytimg.com/vi/z6TFUG1UOzM/hqdefault.jpg" alt="#NodersDeFiesta - Transición de empleo local a internacional de manera remota | Yanci Nerio" />
-</a>
+%{{latest_images_youtube1}}%
+%{{latest_images_youtube2}}%
+%{{latest_images_youtube3}}%
 
 Contactanos
 

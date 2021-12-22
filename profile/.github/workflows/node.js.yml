@@ -1,0 +1,31 @@
+name: UPDATE README PROFILE
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Run BOT
+        run: npm install && npm run update
+        env:
+          CHANNELID: ${{ secrets.CHANNELID }}
+          API_KEY: ${{ secrets.API_KEY }}
+      - name: Push to GitHub
+        env:
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+        run: |
+          git config user.name nelsoncode019
+          git config user.email $MY_EMAIL
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] README updated"
+          git push origin master
