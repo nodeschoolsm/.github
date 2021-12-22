@@ -37,7 +37,7 @@ async function handler() {
       .replace(LATEST_IMAGES_YOUTUBE2, youtubePost2)
       .replace(LATEST_IMAGES_YOUTUBE3, youtubePost3);
 
-    await fs.writeFile("./README.md", newMarkdown);
+    await fs.writeFile("./profile/README.md", newMarkdown);
   } catch (error) {
     console.log("Ocurrió un error " + error);
   }
