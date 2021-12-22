@@ -1,4 +1,4 @@
-<img src="nodeschool.svg" width="124" height="150">
+<img src="./nodeschool.svg" width="124" height="150">
 
 
 ## Hola 👋 
