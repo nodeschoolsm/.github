@@ -22,5 +22,4 @@ Contactanos
 - [Instagram](https://www.instagram.com/nodeschoolsm/)
 - [Twitter](https://www.twitter.com/nodeschoolsm/)
 - [Facebook](https://www.facebook.com/nodeschoolsm/)
-- [Email](hello@nodeschoolsm.io)
 - [Linkedin](https://www.linkedin.com/companies/nodeschool-san-miguel)
